@@ -1,5 +1,5 @@
 
-# Market Segmentation With Clustering
+# Market Segmentation with Clustering
 
 ## Introduction
 
