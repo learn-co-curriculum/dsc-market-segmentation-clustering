@@ -23,7 +23,7 @@ The answer lies in knowing who your customer is. All forms of advertising are no
 
 In order to understand this better, let's take a sample question that market segmentation can help us answer. For our TV advertising budget, we still have to decide what channel to run our commercials on. What effect will advertising on the Disney channel have on a person's likelihood of coming to see our superhero movie? If the person in question is 12 years old, then it's probably very likely that our commercial convinces this person to see our movie. But what about if they're 68 years old? In that case, advertising during a cartoon on the Disney channel might not be the most effective way to reach that person.  If we're worried about reaching this customer, the first question we should ask is what kind of customer they are. In the case of a superhero movie, we can likely assume that all things equal, a 12-year-old child is more likely to be interested in seeing a superhero movie after seeing our commercial than a 68-year-old, so we should probably pay attention to what the data tells us about how 12-year-olds are affected by each type of media advertisement we can use!
 
-<center><img src='images/new_old-man-little-boy-talking.png' width='600'>
+<center><img src='https://curriculum-content.s3.amazonaws.com/data-science/images/new_old-man-little-boy-talking.png' width='600'>
     <strong><em>Two potential customers deep in conversation about what movie to see</strong></em></center>
 
 You can bet that movie studio executives have complex, well-defined models to predict their Return on Investment (RoI) for things as granular as advertising on Disney, versus advertising on the History channel. This is because different market segments of customers behave differently, and market segmentation allows us to zoom in on those groups!
@@ -40,7 +40,7 @@ With clustering, of course! By definition, market segments are groups within our
 
 In modern business analytics, segmentation is only the first step. 
 
-<img src='images/new_marketing-strategy.png' width='700'>
+<img src='https://curriculum-content.s3.amazonaws.com/data-science/images/new_marketing-strategy.png' width='700'>
 
 After we've identified the different market segments, the next step is to build individualized strategies to **_Target_** them! In the movie example we used above, we would first start by answering questions such as "which market segment is most valuable to us?" This can be answered through research or through analyzing our data, or a combination of both. Once we realized that the 12-to-18-year-old demographic is most valuable to us, we can then decide how to target them in the most effective way possible. This brings us back to our earlier question -- how do we allocate our advertising budget? If we've used regression to determine that we're most likely to get the return on investment for our advertising dollars with the 12-to-18-year-old age group, then our next step is to determine which ad channels are most effective to us. We'll likely find that TV advertisements and internet ads are very effective at reaching this particular market segment, but radio is less effective (since a solid portion of the target segment can't yet drive), and newspaper ads are unlikely to reach them at all (because when is the last time you saw a 12-year-old read a newspaper?). 
 
@@ -52,7 +52,7 @@ Scenario: You are the newest data scientist at Tesla Motors. Next year, you are 
 
 Presumably, the first thing you would do is to look at the results of your market segmentation and identify the most profitable market segments to target. Once you know who these segments are, you can target them with ads -- but this only brings us to the second step in our diagram above. The third step means personalizing these ads to have maximum impact on a given targeted segment. Is your target market middle-class families? Then maybe it makes sense to highlight the car's affordability, space, and safety rating. What about if your target is upper-middle-class customers between 30 and 40 years of age that enjoy luxury cars? In that case, you'd probably focus on the speed, luxury, and looks of the car, because they're more likely to care about these qualities than the others. 
 
-<center><img src='images/new_market_seg.png' height='70%' width='70%'>
+<center><img src='https://curriculum-content.s3.amazonaws.com/data-science/images/new_market_seg.png' height='70%' width='70%'>
 <strong><em>When you know your market segment, you can market to them in the most effective way possible!</strong></em></center>
 
 Step 3 in this process is usually done with the help of survey data, under the umbrella of _User Research_. This is not something that data scientists typically have to worry about too much, as it is a different domain of expertise. However, the first two stages are very much something that data scientists can expect to do multiple times in their career!
